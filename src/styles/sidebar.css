@@ -15,22 +15,29 @@
         display: block;
         margin: 0 auto 20px; /* Center logo and add spacing */
     }
+    .links{
+        transition: background-color 0.3s;
+    }
 
     .links a, .bottom-links a {
         display: block;
         padding: 10px 0;
-        color: #fff; /* Text color for links */
-        text-decoration: none; /* Remove underline */
-        transition: background-color 0.3s;
+        color: #fff; 
+        text-decoration: none; 
+        
+        transition: transform 0.3s ease-in-out;
     }
 
     .links a:hover, .bottom-links a:hover {
-        background-color: #555; /* Hover background color */
+        background-color: #9EB8D9; 
+        padding: 10px;
+        border-radius: 10px;
+        transform: translateY(-2px); 
     }
 
     .bottom-links {
         position: absolute;
-        bottom: 20px; 
+        bottom: 40px; 
     }
     .icon-text{
         margin-left: 10px;
