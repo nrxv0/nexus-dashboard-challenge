@@ -2,9 +2,12 @@
     .Sidebar {
         width: 200px;
         height: 100vh;
-        background-color: #9EB8D9; /* Sidebar background color */
+        background-color: #7C93C3; /* Sidebar background color */
         color: #fff; /* Text color */
         padding: 20px;
+        position:sticky;
+        box-sizing: border-box;
+        top: 0;
     }
 
     .logo img {
@@ -28,4 +31,7 @@
     .bottom-links {
         position: absolute;
         bottom: 20px; 
+    }
+    .icon-text{
+        margin-left: 10px;
     }

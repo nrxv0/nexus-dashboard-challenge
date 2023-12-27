@@ -4,6 +4,12 @@ const UsersTable = () =>{
 
     const initialUsers = [
         { id: 1, name: 'John Doe', date: '2023-12-25' },
+        { id: 2, name: 'Jane Smith', date: '2023-12-26' },
+        { id: 2, name: 'Jane Smith', date: '2023-12-26' },
+        { id: 2, name: 'Jane Smith', date: '2023-12-26' },
+        { id: 2, name: 'Jane Smith', date: '2023-12-26' },
+        { id: 2, name: 'Jane Smith', date: '2023-12-26' },
+        { id: 2, name: 'Jane Smith', date: '2023-12-26' },
         { id: 2, name: 'Jane Smith', date: '2023-12-26' }
     ];
 
