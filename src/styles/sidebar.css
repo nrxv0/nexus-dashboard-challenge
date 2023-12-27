@@ -1,0 +1,19 @@
+.Sidebar{
+    width: 100px;
+    height: 100vh;
+    background-color: #333;
+    padding: 10px;
+    /* color: beige; */
+  }
+  
+  a {
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background: #6656E1;
+  }
+  

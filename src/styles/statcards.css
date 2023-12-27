@@ -1,0 +1,13 @@
+/* .statcards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    justify-content: center;
+} */
+.card{
+    max-width: 100px;
+    /* padding: 5px; */
+    background-color: #6656E1;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
