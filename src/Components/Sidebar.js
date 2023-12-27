@@ -18,8 +18,8 @@ const Sidebar = () => {
             <span className="icon-text">Dashboard</span>
                 </Link>
             <Link to="/users">
-            <FontAwesomeIcon icon={faUsers} />
-            <span className="icon-text">Users</span>
+            <FontAwesomeIcon icon={faUsers} className="fausers"/>
+            <span className="icon-text-diff-margin">Users</span>
                 </Link>
             <Link to="/booking">
             <FontAwesomeIcon icon={faBook} />
@@ -27,8 +27,8 @@ const Sidebar = () => {
             
             </Link>
             <Link to="/rooms">
-            <FontAwesomeIcon icon={faHouse} />
-            <span className="icon-text">Rooms</span>
+            <FontAwesomeIcon icon={faHouse} className="fahouse"/>
+            <span className="icon-text-diff-margin">Rooms</span>
                 </Link>
         </div>
         <div className="bottom-links">

@@ -2,13 +2,14 @@
     .searchbar {
         display: flex;
         align-items: center;
-        margin-top: 5%;
+        margin-top: 8%;
         width: 100%; 
         border: 1px solid #ccc;
         border-radius: 5px;
         padding: 5px;
         box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
         box-sizing: border-box;
+        margin-bottom: 20px;
     }
 
     input[type="text"] {

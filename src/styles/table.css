@@ -1,5 +1,6 @@
-
-    .users-list {
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Hedvig+Letters+Serif:opsz@12..24&family=Montserrat&family=Playfair+Display&family=Rubik:wght@300&display=swap');
+  
+    .users-list, .booking-list {
         font-family: Arial, sans-serif;
         width: 100%;
         /* margin: 20px auto; */
@@ -8,6 +9,8 @@
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         margin: 0;
         box-sizing: border-box;
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif;
 
     }
 
@@ -40,3 +43,32 @@
         background-color: #cc0000;
     }
 
+
+    .checked{
+        background-color: #7C93C3;
+    }
+
+
+
+    td{
+        white-space: nowrap;
+    }
+
+    .status-done {
+        background-color: #7C93C3;
+    }
+    
+    .status-pending {
+        background-color: rgb(172, 172, 172);
+    }
+    
+    .status-cancel {
+
+        background-color: #A25772;
+    }
+    .booking-list p {
+        margin: 0;
+        padding: 5px;
+        border-radius: 20px;
+    }
+    

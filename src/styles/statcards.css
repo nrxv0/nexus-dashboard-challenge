@@ -4,13 +4,13 @@
     margin-left: auto;
     margin-right: autos;
     text-align: center;
-    margin-top: 40px;
     margin-bottom: 20px;
     width: 100%;
     border: 1px solid #ccc;
     padding: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
+
 }
 
 h2 {
@@ -21,7 +21,6 @@ h2 {
 .statCards {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
 }
 
 .card:hover {
@@ -45,14 +44,14 @@ h2 {
 }
 
 .card h2 {
-    font-size: 30px; 
     padding: 10px;
     color: #EEF5FF;
     margin:0;
+    font-size: 25px;
 }
 
 .card p {
-    font-size: 18px; 
+    font-size: 16px; 
     margin: 0;
     color: #EEF5FF;
 }
