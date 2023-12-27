@@ -1,0 +1,29 @@
+
+    .searchbar {
+        display: flex;
+        align-items: center;
+        margin-top: 5%;
+        margin-right: 200px;
+        width: 100%; 
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 5px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    input[type="text"] {
+        flex-grow: 1;
+        border: none;
+        outline: none;
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    .searchbar svg {
+        margin-left: 10px;
+        margin-right: 10px;
+        color: #A25772; 
+        cursor: pointer;
+        font-size: 20px;
+    }
+

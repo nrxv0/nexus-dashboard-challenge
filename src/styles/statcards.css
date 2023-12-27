@@ -1,18 +1,56 @@
-.statCards {
-
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 5px;
-    justify-content: center;
-
+.stat-container {
+    /* font-family: Arial, sans-serif; */
+    background-color: #f9f9f9;
+    margin-left: auto;
+    margin-right: autos;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.card {   
-    width: 100px;               
-    border: 1px solid #ccc;  
-    padding: 5px;            
-    text-align: center;       
-    border-radius: 5px;
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.statCards {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card:hover {
+    transform: translateY(-5px); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #6656E1;
+}
+
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+    width: 150px;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 2px;
+    color: #fff; 
+    background: linear-gradient(45deg, #7C93C3, #A25772);
+}
+
+.card h2 {
+    font-size: 36px; 
+    /* margin-bottom: 10px;  */
+    color: #EEF5FF;
+}
+
+.card p {
+    font-size: 18px; 
+    margin: 0;
+    color: #EEF5FF;
 }

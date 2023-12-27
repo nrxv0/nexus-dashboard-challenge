@@ -1,0 +1,42 @@
+
+.loyal {
+    margin-top: 30px;
+    display: flex;            /* Add this line to make it a flex container */
+    flex-direction: column;   /* This will stack its child elements vertically */
+    align-items: center;      /* Center align items horizontally */
+}
+
+/* ... rest of your CSS remains unchanged ... */
+
+
+.loyal-user {
+    display: flex;          /* Set display to flex */
+    align-items: center;    /* Center align items vertically */
+    gap: 20px;              /* Space between image and user info */
+    margin-bottom: 10px;
+    width: 280px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #A25772;
+    box-shadow: 10px;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.loyal-user img {
+    width: 40px;           /* Adjust as needed */
+    height: 40px;          /* Adjust as needed */
+    border-radius: 50%;     /* Make it circular if the image is square */
+}
+
+.user-info p {
+    margin: 0;              /* Remove default margin */
+}
+
+.loyal button{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #A25772;
+    padding: 10px;
+    font-size: 15px;
+}

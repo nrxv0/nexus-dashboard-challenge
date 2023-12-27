@@ -1,7 +1,9 @@
 import "../styles/statcards.css";
 const StatCards = ()=>{
     return (
-        <div className="statCards">
+        <div className="stat-container">
+            <h2>In the last 30 days</h2>
+            <div className="statCards">
             <div className="card">
                 <h2>30000</h2>
                 <p>Booking Operations</p>
@@ -15,6 +17,8 @@ const StatCards = ()=>{
                 <p>Satisfied Clients</p>
             </div>
         </div>
+        </div>
+        
     )
 }
 export default StatCards;

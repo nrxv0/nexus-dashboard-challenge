@@ -1,0 +1,43 @@
+/* Styling for the pro-notif container */
+.pro-notif {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: space-between; /* Space out the child elements */
+    padding: 10px;
+    border: 1px solid #e0e0e0; /* Example border */
+    border-radius: 5px;
+    width: 300px; /* Example width */
+    background-color: #f9f9f9; /* Example background color */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+/* Styling for the user-details */
+.user-details {
+    display: flex;
+    align-items: center; /* Center vertically */
+}
+
+/* Styling for the user image */
+.user-details img {
+    width: 40px; /* Example width */
+    height: 40px; /* Example height */
+    border-radius: 50%; /* Makes it round */
+    margin-right: 10px; /* Spacing between the image and user-name */
+}
+
+/* Styling for the user-name */
+.user-name {
+    font-size: 16px; /* Example font size */
+    font-weight: bold; /* Bold font weight */
+}
+
+/* Styling for the notification-icon */
+.notification-icon {
+    
+    color: #A25772; /* Icon color */
+    padding: 8px; /* Padding around the icon */
+    /* border-radius: 50%;  */
+    cursor: pointer; /* Pointer cursor when hovered */
+}

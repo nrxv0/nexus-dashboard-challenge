@@ -1,19 +1,31 @@
-.Sidebar{
-    width: 100px;
-    height: 100vh;
-    background-color: #333;
-    padding: 10px;
-    /* color: beige; */
-  }
-  
-  a {
-    display: block;
-    margin-bottom: 10px;
-    color: white;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    background: #6656E1;
-  }
-  
+
+    .Sidebar {
+        width: 200px;
+        height: 100vh;
+        background-color: #9EB8D9; /* Sidebar background color */
+        color: #fff; /* Text color */
+        padding: 20px;
+    }
+
+    .logo img {
+        width: 80%; /* Adjust logo width as needed */
+        display: block;
+        margin: 0 auto 20px; /* Center logo and add spacing */
+    }
+
+    .links a, .bottom-links a {
+        display: block;
+        padding: 10px 0;
+        color: #fff; /* Text color for links */
+        text-decoration: none; /* Remove underline */
+        transition: background-color 0.3s;
+    }
+
+    .links a:hover, .bottom-links a:hover {
+        background-color: #555; /* Hover background color */
+    }
+
+    .bottom-links {
+        position: absolute;
+        bottom: 20px; 
+    }

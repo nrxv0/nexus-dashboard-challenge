@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../styles/table.css";
 const UsersTable = () =>{
 
     const initialUsers = [
@@ -14,6 +15,7 @@ const UsersTable = () =>{
     }
     return (
         <div className="users-list">
+            <h2>Users list</h2>
             <table>
                 <thead>
                     <tr>
