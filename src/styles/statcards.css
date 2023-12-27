@@ -1,13 +1,18 @@
-/* .statcards{
+.statCards {
+
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 15px;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
     justify-content: center;
-} */
-.card{
-    max-width: 100px;
-    /* padding: 5px; */
-    background-color: #6656E1;
+
+}
+
+.card {   
+    width: 100px;               
+    border: 1px solid #ccc;  
+    padding: 5px;            
+    text-align: center;       
     border-radius: 5px;
-    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #6656E1;
 }
