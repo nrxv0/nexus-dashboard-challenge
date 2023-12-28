@@ -2,8 +2,8 @@
     .Sidebar {
         width: 200px;
         height: 100vh;
-        background-color: #7C93C3; /* Sidebar background color */
-        color: #fff; /* Text color */
+        background-color: #7C93C3; 
+        color: #fff; 
         padding: 20px;
         position:sticky;
         box-sizing: border-box;
@@ -11,9 +11,9 @@
     }
 
     .logo img {
-        width: 80%; /* Adjust logo width as needed */
+        width: 80%; 
         display: block;
-        margin: 0 auto 20px; /* Center logo and add spacing */
+        margin: 0 auto 20px;
     }
     .links{
         transition: background-color 0.3s;

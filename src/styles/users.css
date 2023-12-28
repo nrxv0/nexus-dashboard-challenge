@@ -1,4 +1,4 @@
-.users, .booking, .Dashboard{
+.users, .booking, .Dashboard, .rooms{
     display: grid;
     grid-template-columns: 1fr 4fr 2fr;
     gap: 20px;
@@ -13,6 +13,9 @@
     grid-template-columns: 200px 1fr; 
     height: 100vh; 
     background-color: #f4f4f4; 
+ 
+}
+.notfound .part2{
     align-items: center; 
     text-align: center;
 }

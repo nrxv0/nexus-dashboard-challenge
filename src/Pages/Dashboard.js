@@ -5,6 +5,7 @@ import "../styles/users.css";
 import SearchBar from "../Components/SearchBar";
 import LoyalCostumers from "../Components/LoyalCostumers";
 import ProfileNotific from "../Components/PofileNotific";
+import DashboardTable from "../Components/DashboardTable";
 const Dashboard = () => {
 
 
@@ -15,7 +16,7 @@ const Dashboard = () => {
             <SearchBar/>
             
             <StatCards/>
-            <UsersTable/>
+            <DashboardTable/>
             </div>
             <div className="right-cont">
             <ProfileNotific/>

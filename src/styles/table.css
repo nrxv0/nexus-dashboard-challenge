@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Hedvig+Letters+Serif:opsz@12..24&family=Montserrat&family=Playfair+Display&family=Rubik:wght@300&display=swap');
   
-    .users-list, .booking-list {
+    .users-list, .booking-list, .dashboard, .rooms-list {
         font-family: Arial, sans-serif;
         width: 100%;
         /* margin: 20px auto; */
@@ -66,9 +66,14 @@
 
         background-color: #A25772;
     }
-    .booking-list p {
+    .booking-list p, .dashboard p{
         margin: 0;
         padding: 5px;
         border-radius: 20px;
+    }
+    .dashboard button{
+        background-color: white;
+        color: #333;
+        cursor: auto;
     }
     
